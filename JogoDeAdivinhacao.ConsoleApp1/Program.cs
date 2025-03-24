@@ -5,6 +5,9 @@
         static void Main(string[] args)
             
         {
+            string[] numerosChutados = new string[100];
+            int contador = 0;
+
             while (true)
             {
                 Console.Clear();
@@ -45,7 +48,7 @@
                     Console.WriteLine("--------------------------------------");
 
                     Console.Write("Digite um número (de 1 à 20) para chutar: ");
-                    int numeroDigitado = Convert.ToInt32(Console.ReadLine());
+                    int numeroDigitado = Convert.ToInt32(Console.ReadLine());                 
 
                     if (numeroDigitado == numeroSecreto)
                     {
